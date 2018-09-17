@@ -1,5 +1,3 @@
-C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Database\LojaVirtual.mdf
-C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Database\LojaVirtual_log.ldf
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.dll.config
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.dll
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.pdb

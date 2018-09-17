@@ -76,3 +76,8 @@ C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.dll
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.SqlServer.dll
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.xml
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.SqlServer.xml
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\Aplicacao.Loja.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\Aplicacao.Dados.dll.config
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\Aplicacao.Loja.pdb
