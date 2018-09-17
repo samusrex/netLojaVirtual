@@ -1,0 +1,16 @@
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Database\LojaVirtual.mdf
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Database\LojaVirtual_log.ldf
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.dll.config
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Loja.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\EntityFramework.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\Aplicacao.Loja.pdb
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\EntityFramework.xml
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.csprojResolveAssemblyReference.cache
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.Migrations.inicial_db.resources
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.csproj.GenerateResource.Cache

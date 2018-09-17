@@ -72,3 +72,7 @@ C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\pt-br\System.Web.WebPag
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\obj\Debug\Aplicacao.csprojResolveAssemblyReference.cache
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\obj\Debug\Aplicacao.dll
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\obj\Debug\Aplicacao.pdb
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.SqlServer.dll
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.xml
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao\bin\EntityFramework.SqlServer.xml
