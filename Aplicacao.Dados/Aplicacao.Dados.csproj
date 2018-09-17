@@ -67,6 +67,10 @@
     <Compile Include="Migrations\201809172206076_inicial_db.Designer.cs">
       <DependentUpon>201809172206076_inicial_db.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809172233030_level2.cs" />
+    <Compile Include="Migrations\201809172233030_level2.Designer.cs">
+      <DependentUpon>201809172233030_level2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Interface\IRepositorio.cs" />
@@ -95,17 +99,17 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\LojaVirtual.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Database\LojaVirtual.mdf" />
     <Content Include="Database\LojaVirtual_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LojaVirtual.mdf</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809172206076_inicial_db.resx">
       <DependentUpon>201809172206076_inicial_db.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809172233030_level2.resx">
+      <DependentUpon>201809172233030_level2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

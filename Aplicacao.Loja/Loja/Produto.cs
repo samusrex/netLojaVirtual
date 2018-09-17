@@ -15,5 +15,7 @@ namespace Aplicacao.Loja.Loja
         public int Quantidade { get; set; }
         public string Imagem { get; set; }
 
+        public int teste { get; set; }
+
     }
 }

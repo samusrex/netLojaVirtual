@@ -14,3 +14,4 @@ C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.D
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.pdb
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.Migrations.inicial_db.resources
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.csproj.GenerateResource.Cache
+C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.Migrations.level2.resources
