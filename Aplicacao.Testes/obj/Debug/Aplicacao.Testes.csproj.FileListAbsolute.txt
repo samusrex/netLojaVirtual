@@ -89,3 +89,32 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\A
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.csproj.CoreCompileInputs.cache
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.dll
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Aplicacao.Testes.dll.config
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Aplicacao.Testes.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Aplicacao.Testes.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.Helpers.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.Mvc.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.Razor.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.WebPages.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.Helpers.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.Mvc.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.Razor.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.WebPages.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br\System.Web.Helpers.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br\System.Web.Mvc.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br\System.Web.Razor.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br\System.Web.WebPages.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.csprojResolveAssemblyReference.cache
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.pdb

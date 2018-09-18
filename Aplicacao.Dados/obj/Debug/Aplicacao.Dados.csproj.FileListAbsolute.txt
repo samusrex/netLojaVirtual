@@ -30,3 +30,19 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Ap
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.csproj.CoreCompileInputs.cache
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.dll
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Database\LojaVirtual.mdf
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Database\LojaVirtual_log.ldf
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.dll.config
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Aplicacao.Loja.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\EntityFramework.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\Aplicacao.Loja.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\EntityFramework.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.csprojResolveAssemblyReference.cache
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.Migrations.inicial.resources
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Debug\Aplicacao.Dados.csproj.GenerateResource.Cache

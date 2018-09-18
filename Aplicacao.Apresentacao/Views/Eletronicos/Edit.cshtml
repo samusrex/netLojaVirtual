@@ -1,4 +1,4 @@
-﻿@model Aplicacao.Loja.Loja.Items.Eletronicos
+﻿@model Aplicacao.Loja.Loja.Items.Eletronico
 
 @{
     ViewBag.Title = "Edit";
@@ -12,7 +12,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Eletronicos</h4>
+        <h4>Eletronico</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.ProdutoId)

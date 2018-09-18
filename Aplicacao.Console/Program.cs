@@ -92,8 +92,7 @@ namespace Aplicacao.Console
 			RepositorioProduto.Adicione(TDBZSuper);
 			//PC
 			RepositorioProduto.Adicione(PCPositivo);
-
-			RepositorioProduto.Registre();
+            RepositorioProduto.Registre();
 
 
 
