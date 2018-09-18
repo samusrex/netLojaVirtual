@@ -1,4 +1,5 @@
 ﻿using Aplicacao.Apresentacao.ViewModel;
+using Aplicacao.Dados.Repository;
 using Aplicacao.Loja.Loja;
 using System;
 using System.Collections.Generic;
@@ -8,26 +9,16 @@ using System.Web.Mvc;
 
 namespace Aplicacao.Apresentacao.Controllers
 {
-	public class HomeController : Controller
-	{
-		public ActionResult Index()
-		{
-			return View();
-		}
+    public class HomeController : Controller
+    {
+        ProdutoRepositorio db = new ProdutoRepositorio();
+        public ActionResult Index()
+        {
+         return View(db.ObterTodos().ToList().OrderBy(s=>s.Setor));
+        }
 
-		public ActionResult About()
-		{
-			ViewBag.Message = "Your application description page.";
+        
 
-			return View();
-		}
-
-		public ActionResult Contact()
-		{
-			ViewBag.Message = "Your contact page.";
-
-			return View();
-		}
         [HttpGet]
         public ActionResult Escolher()
         {
@@ -60,12 +51,10 @@ namespace Aplicacao.Apresentacao.Controllers
             else if (p.Escolha == 2)
             {
                 return RedirectToAction("Create", "Computadores");
-
             }
             else
             {
-
-                return View();
+                return View("Index");
             }
         }
 
