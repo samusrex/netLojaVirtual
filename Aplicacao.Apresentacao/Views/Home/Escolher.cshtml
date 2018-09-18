@@ -1,0 +1,35 @@
+﻿@model Aplicacao.Apresentacao.ViewModel.ProdutoEscolhaViewModel
+
+@{
+    ViewBag.Title = "Escolher";
+}
+
+<h2>Escolher</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+       
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Escolha, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              
+                @Html.DropDownListFor(model=>model.Escolha,Model.CategoriasDoProduto)
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

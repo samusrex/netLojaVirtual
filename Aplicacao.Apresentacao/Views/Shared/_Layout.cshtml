@@ -4,42 +4,69 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+
+    @*@Styles.Render("~/Content/css")*@
+    @*@Scripts.Render("~/bundles/modernizr")*@
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Loja Virtual", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li>@Html.ActionLink("Home", "Index", "Home")</li>
-					<li>@Html.ActionLink("About", "About", "Home")</li>
-					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-					<li>@Html.ActionLink("Eletronicos", "Index", "Eletronicos")</li>
-					<li>@Html.ActionLink("Games", "Index", "Games")</li>
-                    <li>@Html.ActionLink("Informática", "Index", "Computadores")</li>
-				</ul>
-            </div>
+<body class="grey lighten-1">
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href='@Url.Action("Index","Eletronicos")'>Eletrônicos</a></li>
+        <li><a href='@Url.Action("Index","Computadores")'>Informática</a></li>
+        <li class="divider"></li>
+        <li><a href='@Url.Action("Index","Games")'>Games</a></li>
+
+
+
+    </ul>
+    <nav>
+        <div class="nav-wrapper  green lighten-1">
+            <a href="#!" class="brand-logo right">Loja Virtual</a>
+            <ul class="left hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Categoria de Produtos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div style="padding:10px">
+        
+        <div class="card-panel">
+
+            @RenderBody()
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <script>
+
+
+        $(document).ready(function () {
+            $(".dropdown-trigger").dropdown();
+            $('.tooltipped').tooltip();
+            $('.dropdown-trigger').dropdown();
+
+            $('select').formSelect();
+
+
+
+        });
+
+
+
+    </script>
+
 </body>
+
+
 </html>

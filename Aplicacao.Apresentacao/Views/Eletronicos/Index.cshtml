@@ -4,84 +4,100 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Nome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Fabricante)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Valor)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Quantidade)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Imagem)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Setor)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Modelo)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Tamanho)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CatgEletron)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Fabricante)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Valor)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Quantidade)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Imagem)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Setor)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Modelo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Tamanho)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CatgEletron)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProdutoId })
-        </td>
-    </tr>
-}
+<div>
+    <div>
 
-</table>
+        <h6><i class="material-icons">desktop_windows</i> <b>Eletrônicos </b></h6>
+
+
+
+        <p>
+            <a class="btn-floating tooltipped green darken-4 right" data-position="bottom" data-tooltip="Novo" href='@Url.Action("Escolher","Home")'><i class="material-icons">add</i></a>
+
+        </p>
+
+        <br />
+
+
+
+
+
+        <table class="responsive-table">
+
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Fabricante)
+                    </th>
+                    <th class="center">
+                        Descrição
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Valor)
+                    </th>
+                    <th>
+                        Qtde.
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Imagem)
+                    </th>
+
+                    <th>
+                        Categoria
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            @foreach (var item in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Fabricante)
+                        </td>
+                        <td class="small">
+                            @Html.DisplayFor(modelItem => item.Descricao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Valor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantidade)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Imagem)
+                        </td>
+
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CatgEletron)
+                        </td>
+                        <td>
+                            <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Editar" href='@Url.Action("Edit","Eletronicos", new { id = item.ProdutoId })'><i class="material-icons">create</i></a>
+                            @* @Html.ActionLink("Editar", "Edit", new { id = item.ProdutoId }) |*@
+                            <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Detalhes" href='@Url.Action("Details","Eletronicos", new { id = item.ProdutoId })'><i class="material-icons">dehaze</i></a>
+                            @*@Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |*@
+                            @* @Html.ActionLink("Delete", "Delete", new { id = item.ProdutoId })*@
+                            <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Excluir" href='@Url.Action("Details","Eletronicos", new { id = item.ProdutoId })'><i class="material-icons">delete</i></a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            }
+
+        </table>
+
+
+
+
+    </div>
+</div>

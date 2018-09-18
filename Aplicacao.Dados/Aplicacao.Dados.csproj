@@ -99,6 +99,7 @@
       <DependentUpon>201809181237428_inicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Database\LojaVirtual.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

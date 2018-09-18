@@ -10,13 +10,14 @@ using Aplicacao.Dados.LojaContext;
 using Aplicacao.Loja.Loja.Items;
 using Aplicacao.Dados.Repository;
 using Aplicacao.Loja.Loja;
+using Aplicacao.Apresentacao.ViewModel;
 
 namespace Aplicacao.Apresentacao.Controllers
 {
     public class EletronicosController : Controller
     {
         ProdutoRepositorio db = new ProdutoRepositorio();
-
+        private int Ver { get; set; }
         // GET: Eletronicos
         public ActionResult Index()
         {
@@ -126,6 +127,11 @@ namespace Aplicacao.Apresentacao.Controllers
             db.Registre();
             return RedirectToAction("Index");
         }
+
+        [HttpGet, ActionName("Escolher")]
+
+       
+
 
         protected override void Dispose(bool disposing)
         {
