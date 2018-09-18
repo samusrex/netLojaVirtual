@@ -21,8 +21,15 @@ namespace Aplicacao.Apresentacao.Controllers
 		public ActionResult Index()
 		{
 			ViewBag.Title = "Loja Virtual";
-			
-			return View(db.ObterTodos().Where(c=>c.Setor == Produto.Categoria.ELETRONICOS));
+
+			var listaEletronicos = new List<Eletronico>();
+
+			foreach (Eletronico item in db.ObterTodos().Where(c => c.Setor == Produto.Categoria.ELETRONICOS))
+			{
+				listaEletronicos.Add(item);
+			}
+
+			return View(listaEletronicos);
 		}
 
 		// GET: Eletronicos/Details/5
@@ -51,7 +58,7 @@ namespace Aplicacao.Apresentacao.Controllers
 		// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Create([Bind(Include = "ProdutoId,Modelo,Tamanho,CatgEletron,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem")] Eletronicos eletronicos)
+		public ActionResult Create([Bind(Include = "ProdutoId,Modelo,Tamanho,CatgEletron,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem")] Eletronico eletronicos)
 		{
 			if (ModelState.IsValid)
 			{
@@ -83,7 +90,7 @@ namespace Aplicacao.Apresentacao.Controllers
 		// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Edit([Bind(Include = "ProdutoId,Modelo,Tamanho,CatgEletron,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem")] Eletronicos eletronicos)
+		public ActionResult Edit([Bind(Include = "ProdutoId,Modelo,Tamanho,CatgEletron,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem")] Eletronico eletronicos)
 		{
 			if (ModelState.IsValid)
 			{

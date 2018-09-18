@@ -19,6 +19,10 @@ namespace Aplicacao.Dados.LojaContext
 
         public DbSet<Produto> Produto { get; set; }
 
-		public System.Data.Entity.DbSet<Aplicacao.Loja.Loja.Items.Eletronicos> Eletronicos { get; set; }
+		public System.Data.Entity.DbSet<Aplicacao.Loja.Loja.Items.Eletronico> Eletronicos { get; set; }
+
+		public System.Data.Entity.DbSet<Aplicacao.Loja.Loja.Items.Eletronico> Games { get; set; }
+
+		public System.Data.Entity.DbSet<Aplicacao.Loja.Loja.Items.Jogo> Jogoes { get; set; }
 	}
 }

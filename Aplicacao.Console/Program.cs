@@ -17,16 +17,16 @@ namespace Aplicacao.Console
 			var RepositorioProduto = new ProdutoRepositorio();
 
 
-			var PCPositivo = new Informatica()
+			var PCPositivo = new Computador()
 			{
 				Setor = Produto.Categoria.INFORMATICA,
-				CatgInfo = Informatica.CategoriaInformatica.PC,
+				CatgInfo = Computador.CategoriaInformatica.PC,
 				Nome = "PC POSITIVO ",
 				Memoria = 2,
 				Processador = "Dual Core Intel Atom",
 				Armazenamento = 500,
 				Fabricante = "POSITIVO",
-				TipoArmazenamento = Informatica.Disco.HD,
+				TipoArmazenamento = Computador.Disco.HD,
 				Descricao = "Computador Positivo Intel Celeron Dual Core J1800",
 				Quantidade = 15,
 				Valor = 1352.00,
@@ -34,10 +34,10 @@ namespace Aplicacao.Console
 			};
 
 
-			var TheWitcher3 = new Game()
+			var TheWitcher3 = new Jogo()
 			{
 				Setor = Produto.Categoria.GAMES,
-				CatgGame = Game.CategoriaGame.RPG,
+				CatgGame = Jogo.CategoriaGame.RPG,
 				Nome = "The Witcher 3",
 				Descricao = "The Witcher For PS4 HD",
 				Fabricante = "CD RED PROJECT",
@@ -45,10 +45,10 @@ namespace Aplicacao.Console
 				Valor = 115.00
 			};
 
-			var TDBZSuper = new Game()
+			var TDBZSuper = new Jogo()
 			{
 				Setor = Produto.Categoria.GAMES,
-				CatgGame = Game.CategoriaGame.LUTA,
+				CatgGame = Jogo.CategoriaGame.LUTA,
 				Nome = "Dragon Ball Super FIghters",
 				Descricao = "Dragon Ball Super FIghters For PS4 HD",
 				Fabricante = "BANDAI",
@@ -58,7 +58,7 @@ namespace Aplicacao.Console
 
 
 			//Registrar uma TV.
-			var TVLG49 = new Eletronicos()
+			var TVLG49 = new Eletronico()
 			{
 				Fabricante = "LG",
 				Descricao = "Smart TV 49' LED Full HD LG 49LK5750PSA Entradas 2 HDMI 1 USB 60 Hz",
@@ -66,12 +66,12 @@ namespace Aplicacao.Console
 				Nome = "Smart TV 49' LED Full HD LG ",
 				Quantidade = 5,
 				Tamanho = 49,
-				CatgEletron = Eletronicos.CategoriaEletronico.TV,
+				CatgEletron = Eletronico.CategoriaEletronico.TV,
 				Valor = 2499.50
 			};
 
 
-			var TVLG32 = new Eletronicos()
+			var TVLG32 = new Eletronico()
 			{
 				Fabricante = "LG",
 				Descricao = "Smart TV 32' LED Full HD LG 39LK5750PSA Entradas 2 HDMI 2 USB 60 Hz",
@@ -79,7 +79,7 @@ namespace Aplicacao.Console
 				Nome = "Smart TV 32' LED Full HD LG ",
 				Quantidade = 5,
 				Tamanho = 32,
-				CatgEletron = Eletronicos.CategoriaEletronico.TV,
+				CatgEletron = Eletronico.CategoriaEletronico.TV,
 				Valor = 1499.50
 			};
 

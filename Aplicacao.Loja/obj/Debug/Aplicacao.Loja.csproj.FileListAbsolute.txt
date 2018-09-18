@@ -7,3 +7,4 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Debug\Apl
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.csproj.CoreCompileInputs.cache
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.dll
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.pdb
+C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.csprojResolveAssemblyReference.cache

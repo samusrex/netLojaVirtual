@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loja\Items\Eletronicos.cs" />
-    <Compile Include="Loja\Items\Games.cs" />
-    <Compile Include="Loja\Items\Informatica.cs" />
+    <Compile Include="Loja\Items\Eletronico.cs" />
+    <Compile Include="Loja\Items\Jogo.cs" />
+    <Compile Include="Loja\Items\Computador.cs" />
     <Compile Include="Loja\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
