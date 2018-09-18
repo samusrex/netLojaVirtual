@@ -5,14 +5,14 @@ namespace Aplicacao.Dados.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Aplicacao.Dados.LojaContext.LojaContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Aplicacao.Dados.LojaContext.LojaDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Aplicacao.Dados.LojaContext.LojaContext context)
+        protected override void Seed(Aplicacao.Dados.LojaContext.LojaDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

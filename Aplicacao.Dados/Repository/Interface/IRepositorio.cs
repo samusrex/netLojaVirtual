@@ -9,11 +9,11 @@ namespace Aplicacao.Dados.Repository.Interface
 {
     public interface IRepositorio<T> where T:class
     {
-        IQueryable<T> GetAll();
-        IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
-        void Add(T entity);
-        void Delete(T entity);
-        void Edit(T entity);
-        void Save();
+        IQueryable<T> ObterTodos();
+        IQueryable<T> EncontrePor(Expression<Func<T, bool>> predicate);
+        void Adicione(T entity);
+        void Remova(T entity);
+        void Atualize(T entity);
+        void Registre();
     }
 }

@@ -2,3 +2,8 @@ C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Loja\bin\Debug\Aplicacao.Lo
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Loja\bin\Debug\Aplicacao.Loja.pdb
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.dll
 C:\Users\hmendonca\Documents\Git\Aplicacao\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.pdb
+C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Debug\Aplicacao.Loja.dll
+C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Debug\Aplicacao.Loja.pdb
+C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.csproj.CoreCompileInputs.cache
+C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.dll
+C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.pdb

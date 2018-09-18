@@ -1,43 +1,54 @@
-﻿using Aplicacao.Dados.Repository.Interface;
+﻿using Aplicacao.Dados.LojaContext;
+using Aplicacao.Dados.Repository.Interface;
 using Aplicacao.Loja.Loja;
 using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Aplicacao.Dados.Repository
 {
-    public class ProdutoRepositorio : IRepositorio<Produto>
+    public class ProdutoRepositorio : IRepositorio<Produto>,IDisposable
     {
-        public void Add(Produto entity)
+		LojaDbContext db = new LojaDbContext();
+
+		public void Adicione(Produto entity)
         {
-            throw new NotImplementedException();
+			db.Produto.Add(entity);   
         }
 
-        public void Delete(Produto entity)
+        public void Remova(Produto entity)
         {
-            throw new NotImplementedException();
+			db.Produto.Remove(entity);
         }
 
-        public void Edit(Produto entity)
+        public void Atualize(Produto entity)
         {
-            throw new NotImplementedException();
+			db.Entry(entity).State = System.Data.Entity.EntityState.Modified;
         }
 
-        public IQueryable<Produto> FindBy(System.Linq.Expressions.Expression<Func<Produto, bool>> predicate)
+        public IQueryable<Produto> EncontrePor(Expression<Func<Produto, bool>> predicate)
         {
-            throw new NotImplementedException();
+			IQueryable<Produto> query = db.Set<Produto>().Where(predicate);
+			return query;
+		}
+
+        public IQueryable<Produto> ObterTodos()
+        {
+			IQueryable<Produto> todos = db.Produto;
+
+			return todos;
         }
 
-        public IQueryable<Produto> GetAll()
+        public void Registre()
         {
-            throw new NotImplementedException();
+            db.SaveChanges();
         }
 
-        public void Save()
-        {
-            throw new NotImplementedException();
-        }
-    }
+		public void Dispose()
+		{
+			db.Dispose();
+		}
+	}
 }
