@@ -8,7 +8,7 @@
 <h5>Games</h5>
 
 <p>
-    <a class="btn-floating tooltipped green darken-4 right" data-position="bottom" data-tooltip="Novo" href='@Url.Action("Escolher","Home")'><i class="material-icons">add</i></a>
+    <a class="btn-floating tooltipped green darken-4 right" data-position="bottom" data-tooltip="Novo" href='@Url.Action("Create","Games")'><i class="material-icons">add</i></a>
 </p>
 
 <table class="table">
@@ -53,7 +53,7 @@
                 <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Detalhes" href='@Url.Action("Details","Games", new { id = item.ProdutoId })'><i class="material-icons">dehaze</i></a>
                 @*@Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |*@
                 @* @Html.ActionLink("Delete", "Delete", new { id = item.ProdutoId })*@
-                <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Excluir" href='@Url.Action("Details","Games", new { id = item.ProdutoId })'><i class="material-icons">delete</i></a>
+                <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Excluir" href='@Url.Action("Delete","Games", new { id = item.ProdutoId })'><i class="material-icons">delete</i></a>
 
             </td>
 

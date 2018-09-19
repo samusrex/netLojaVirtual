@@ -63,6 +63,7 @@ namespace Aplicacao.Apresentacao.Controllers
         {
             if (ModelState.IsValid)
             {
+                eletronicos.Setor = Produto.Categoria.ELETRONICOS;
                 db.Adicione(eletronicos);
                 db.Registre();
                 return RedirectToAction("Index");

@@ -4,20 +4,13 @@
     ViewBag.Title = "Delete";
 }
 
-<h2>Delete</h2>
-
-<h3>Are you sure you want to delete this?</h3>
+<h5><b>Deseja Excluir?:</b></h5>
+<h6>@Html.DisplayFor(model => model.Nome)</h6>
 <div>
-    <h4>Computador</h4>
+  
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.CatgInfo)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.CatgInfo)
-        </dd>
+      
 
         <dt>
             @Html.DisplayNameFor(model => model.Processador)
@@ -103,18 +96,15 @@
             @Html.DisplayNameFor(model => model.Setor)
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Setor)
-        </dd>
-
+        
     </dl>
 
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            <input type="submit" value="Delete" class="btn btn-default" /> 
+            @Html.ActionLink("CANCELAR", "Index",null,new { @class="btn btn-default"})
         </div>
     }
 </div>

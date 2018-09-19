@@ -62,6 +62,7 @@ namespace Aplicacao.Apresentacao.Controllers
         {
             if (ModelState.IsValid)
             {
+                jogo.Setor = Produto.Categoria.GAMES;
                 db.Adicione(jogo);
                 db.Registre();
                 return RedirectToAction("Index");

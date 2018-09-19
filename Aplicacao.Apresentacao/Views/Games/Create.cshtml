@@ -1,7 +1,7 @@
 ﻿@model Aplicacao.Loja.Loja.Items.Jogo
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Novo Jogo";
 }
 
 <h2>Jogos</h2>
@@ -16,6 +16,14 @@
     <div class="row">
         <form class="col s12">
             <div class="row">
+
+                <div class="input-field col s6">
+
+                    @Html.EnumDropDownListFor(model => model.CatgGame, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.CatgGame, "", new { @class = "text-danger" })
+
+                </div>
+
                 <div class="input-field col s6">
 
                     @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -25,14 +33,7 @@
 
                 </div>
 
-                <div class="input-field col s6">
-
-                    @Html.LabelFor(model => model.Fabricante, htmlAttributes: new { @class = "control-label col-md-2" })
-                    @Html.EditorFor(model => model.Fabricante, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.Fabricante, "", new { @class = "text-danger" })
-
-
-                </div>
+               
             </div>
 
             <div class="row">
@@ -75,31 +76,19 @@
             </div>
 
             <div class="row">
-                <div class="input-field col s6">
-
-                    @Html.LabelFor(model => model.Setor, htmlAttributes: new { @class = "control-label col-md-2" })
-                    @Html.EnumDropDownListFor(model => model.Setor, htmlAttributes: new { @class = "form-control" })
-                    @Html.ValidationMessageFor(model => model.Setor, "", new { @class = "text-danger" })
-
-                </div>
 
                 <div class="input-field col s6">
 
-                    @Html.LabelFor(model => model.CatgGame, htmlAttributes: new { @class = "control-label col-md-2" })
-                    @Html.EnumDropDownListFor(model => model.CatgGame, htmlAttributes: new { @class = "form-control" })
-                    @Html.ValidationMessageFor(model => model.CatgGame, "", new { @class = "text-danger" })
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="input-field col s6">
+                    @Html.LabelFor(model => model.Fabricante, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.Fabricante, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Fabricante, "", new { @class = "text-danger" })
 
                 </div>
 
 
             </div>
 
+          
             <div class="row">
 
                 <div class="input-field col s12">
@@ -115,6 +104,18 @@
 
 }
 
+<script>
+
+
+    $(document).ready(function () {
+
+        $('select').formSelect();
+
+    });
+
+
+
+</script>
 
 
 

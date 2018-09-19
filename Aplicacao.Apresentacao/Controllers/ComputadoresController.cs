@@ -62,6 +62,7 @@ namespace Aplicacao.Apresentacao.Controllers
         {
             if (ModelState.IsValid)
             {
+                computador.Setor = Produto.Categoria.INFORMATICA;                   
                 db.Adicione(computador);
                 db.Registre();
                 return RedirectToAction("Index");
