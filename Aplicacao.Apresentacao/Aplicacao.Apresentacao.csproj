@@ -197,6 +197,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
@@ -265,6 +266,11 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Escolher.cshtml" />
+    <Content Include="Views\Terminais\Create.cshtml" />
+    <Content Include="Views\Terminais\Delete.cshtml" />
+    <Content Include="Views\Terminais\Details.cshtml" />
+    <Content Include="Views\Terminais\Edit.cshtml" />
+    <Content Include="Views\Terminais\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

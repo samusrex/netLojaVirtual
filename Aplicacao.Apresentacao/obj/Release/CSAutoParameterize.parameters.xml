@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AplicacaoApresentacaoContext-Web.config Connection String" description="AplicacaoApresentacaoContext A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=AplicacaoApresentacaoContext-20180918001240; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|AplicacaoApresentacaoContext-20180918001240.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hmendonca\\Documents\\Git\\netLojaVirtual\\Aplicacao\.Apresentacao\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AplicacaoApresentacaoContext']/@connectionString" />
+  </parameter>
+  <parameter name="LojaDb-Web.config Connection String" description="LojaDb A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\Database\LojaVirtual.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hmendonca\\Documents\\Git\\netLojaVirtual\\Aplicacao\.Apresentacao\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LojaDb']/@connectionString" />
+  </parameter>
+</parameters>

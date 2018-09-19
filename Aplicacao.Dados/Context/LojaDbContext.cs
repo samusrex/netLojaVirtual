@@ -33,5 +33,6 @@ namespace Aplicacao.Dados.LojaContext
         }
 
         public System.Data.Entity.DbSet<Aplicacao.Loja.Loja.Items.Computador> Computadors { get; set; }
+
     }
 }

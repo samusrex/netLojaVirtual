@@ -11,7 +11,9 @@ namespace Aplicacao.Loja.Loja.Items
 		public enum CategoriaEletronico {
 
 			TV,
-			VIDEOGAMES
+			VIDEOGAMES,
+            TERMINAIS
+          
 
 		}
 

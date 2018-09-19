@@ -1,0 +1,116 @@
+﻿@model IEnumerable<Aplicacao.Loja.Loja.Items.Eletronico>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div>
+    <div>
+
+        <h6><i class="material-icons">desktop_windows</i> <b>Eletrônicos </b></h6>
+
+
+
+        <p>
+            <a class="btn-floating tooltipped green darken-4 right" data-position="bottom" data-tooltip="Novo" href='@Url.Action("Escolher","Home")'><i class="material-icons">add</i></a>
+
+        </p>
+
+        <br />
+
+
+
+
+
+        <table class="responsive-table">
+
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Fabricante)
+                    </th>
+                    <th class="center">
+                        Descrição
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Valor)
+                    </th>
+                    <th>
+                        Qtde.
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Imagem)
+                    </th>
+
+                    <th>
+                        Categoria
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            @foreach (var item in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Fabricante)
+                        </td>
+                        <td class="small">
+                            @Html.DisplayFor(modelItem => item.Descricao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Valor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantidade)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Imagem)
+                        </td>
+
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CatgEletron)
+                        </td>
+                        <td>
+                            <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Editar" href='@Url.Action("Edit","Eletronicos", new { id = item.ProdutoId })'><i class="material-icons">create</i></a>
+                            @* @Html.ActionLink("Editar", "Edit", new { id = item.ProdutoId }) |*@
+                            <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Detalhes" href='@Url.Action("Details","Eletronicos", new { id = item.ProdutoId })'><i class="material-icons">dehaze</i></a>
+                            @*@Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |*@
+                            @* @Html.ActionLink("Delete", "Delete", new { id = item.ProdutoId })*@
+                            <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Excluir" href='@Url.Action("Details","Eletronicos", new { id = item.ProdutoId })'><i class="material-icons">delete</i></a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            }
+
+        </table>
+
+
+
+
+    </div>
+</div>
+
+<script>
+
+
+        $(document).ready(function () {
+        
+            $('select').formSelect();
+
+        });
+
+
+
+</script>

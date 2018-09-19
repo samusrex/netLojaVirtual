@@ -1,0 +1,46 @@
+﻿@model Aplicacao.Apresentacao.ViewModel.ProdutoEscolhaViewModel
+
+@{
+    ViewBag.Title = "Escolher";
+}
+
+<h5>Que tipo de Produto você deseja Cadastrar?</h5>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="input-field col s6">
+        @Html.DropDownListFor(model => model.Escolha, Model.CategoriasDoProduto, new { @class = "default-browser" })
+
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Escolher" class="btn btn-default" />
+            @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default green lighten-2" })
+        </div>
+    </div>
+
+}
+
+<div>
+
+</div>
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('select').formSelect();
+
+    });
+
+
+
+</script>

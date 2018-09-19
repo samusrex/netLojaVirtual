@@ -7,8 +7,9 @@
 <h5>Produtos</h5>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a class="btn-floating tooltipped green darken-4 right" data-position="bottom" data-tooltip="Novo" href='@Url.Action("Escolher","Home")'><i class="material-icons">add</i></a>
 </p>
+
 <table class="table">
     <tr>
         <th>
@@ -20,36 +21,32 @@
         <th>
             @Html.DisplayNameFor(model => model.Descricao)
         </th>
-       
-        
+
         <th>
             @Html.DisplayNameFor(model => model.Setor)
         </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Fabricante)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-       
-      
-        <td>
-            @Html.DisplayFor(modelItem => item.Setor)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProdutoId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fabricante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Setor)
+            </td>
+            
+        </tr>
+    }
 
 </table>

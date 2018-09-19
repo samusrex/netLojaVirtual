@@ -4,32 +4,43 @@
     ViewBag.Title = "Escolher";
 }
 
-<h2>Escolher</h2>
+<h5>Que tipo de Produto você deseja Cadastrar?</h5>
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
-       
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.Escolha, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-              
-                @Html.DropDownListFor(model=>model.Escolha,Model.CategoriasDoProduto)
 
-            </div>
-        </div>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
+    <div class="input-field col s6">
+        @Html.DropDownListFor(model => model.Escolha, Model.CategoriasDoProduto, new { @class = "default-browser" })
+
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Escolher" class="btn btn-default" />
+            @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default green lighten-2" })
         </div>
-    
+    </div>
+
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+
 </div>
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('select').formSelect();
+
+    });
+
+
+
+</script>

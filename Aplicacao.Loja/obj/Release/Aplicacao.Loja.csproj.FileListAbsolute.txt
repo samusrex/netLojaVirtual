@@ -1,0 +1,4 @@
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Release\Aplicacao.Loja.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Release\Aplicacao.Loja.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Release\Aplicacao.Loja.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Release\Aplicacao.Loja.pdb

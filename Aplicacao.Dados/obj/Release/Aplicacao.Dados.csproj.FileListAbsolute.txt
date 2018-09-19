@@ -1,0 +1,16 @@
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Database\LojaVirtual.mdf
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Database\LojaVirtual_log.ldf
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Aplicacao.Dados.dll.config
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Aplicacao.Dados.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Aplicacao.Loja.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\EntityFramework.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\Aplicacao.Loja.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\EntityFramework.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Release\Aplicacao.Dados.csprojResolveAssemblyReference.cache
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Release\Aplicacao.Dados.Migrations.inicial.resources
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Release\Aplicacao.Dados.csproj.GenerateResource.Cache
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Release\Aplicacao.Dados.dll
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Dados\obj\Release\Aplicacao.Dados.pdb

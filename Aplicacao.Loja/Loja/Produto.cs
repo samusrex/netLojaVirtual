@@ -16,6 +16,8 @@ namespace Aplicacao.Loja.Loja
 			ELETRONICOS,
 			GAMES,
 			INFORMATICA
+            
+
 
 		};
 
