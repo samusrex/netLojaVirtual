@@ -91,7 +91,7 @@ namespace Aplicacao.Apresentacao.Controllers
         // obter mais detalhes, consulte https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProdutoId,CatgInfo,Processador,Memoria,Armazenamento,TipoArmazenamento,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem,Setor")] Computador computador)
+        public ActionResult Edit(Computador computador)
         {
             if (ModelState.IsValid)
             {

@@ -97,6 +97,12 @@
                     @Html.LabelFor(model => model.Tamanho, htmlAttributes: new { @class = "control-label col-md-2" })
                     @Html.EditorFor(model => model.Tamanho, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.Tamanho, "", new { @class = "text-danger" })
+                
+
+                    @Html.EditorFor(model => model.ProdutoId, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.EditorFor(model => model.Setor, new { htmlAttributes = new { @class = "form-control" } })
+
+
                 </div>
 
 

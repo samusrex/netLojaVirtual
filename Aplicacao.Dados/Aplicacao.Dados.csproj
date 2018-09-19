@@ -63,21 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\LojaDbContext.cs" />
-    <Compile Include="Migrations\201809181237428_inicial.cs" />
-    <Compile Include="Migrations\201809181237428_inicial.Designer.cs">
-      <DependentUpon>201809181237428_inicial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201809191458451_adicionaProdutoTerminal.cs" />
-    <Compile Include="Migrations\201809191458451_adicionaProdutoTerminal.Designer.cs">
-      <DependentUpon>201809191458451_adicionaProdutoTerminal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201809191529524_remove_all.cs" />
-    <Compile Include="Migrations\201809191529524_remove_all.Designer.cs">
-      <DependentUpon>201809191529524_remove_all.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201809191533527_remove_.cs" />
-    <Compile Include="Migrations\201809191533527_remove_.Designer.cs">
-      <DependentUpon>201809191533527_remove_.cs</DependentUpon>
+    <Compile Include="Migrations\201809192048298_inicialDb.cs" />
+    <Compile Include="Migrations\201809192048298_inicialDb.Designer.cs">
+      <DependentUpon>201809192048298_inicialDb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,20 +95,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201809181237428_inicial.resx">
-      <DependentUpon>201809181237428_inicial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809191458451_adicionaProdutoTerminal.resx">
-      <DependentUpon>201809191458451_adicionaProdutoTerminal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809191529524_remove_all.resx">
-      <DependentUpon>201809191529524_remove_all.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809191533527_remove_.resx">
-      <DependentUpon>201809191533527_remove_.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809192048298_inicialDb.resx">
+      <DependentUpon>201809192048298_inicialDb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Database\LojaVirtual.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

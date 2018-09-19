@@ -91,7 +91,7 @@ namespace Aplicacao.Apresentacao.Controllers
         // obter mais detalhes, consulte https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProdutoId,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem,Setor,CatgGame")] Jogo jogo)
+        public ActionResult Edit(Jogo jogo)
         {
             if (ModelState.IsValid)
             {

@@ -66,6 +66,9 @@ namespace Aplicacao.Apresentacao.Controllers
                 eletronicos.Setor = Produto.Categoria.ELETRONICOS;
                 db.Adicione(eletronicos);
                 db.Registre();
+
+                TempData["Sucess"] = true;
+
                 return RedirectToAction("Index");
             }
 
@@ -92,7 +95,7 @@ namespace Aplicacao.Apresentacao.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProdutoId,Modelo,Tamanho,CatgEletron,Nome,Fabricante,Descricao,Valor,Quantidade,Imagem")] Eletronico eletronicos)
+        public ActionResult Edit(Eletronico eletronicos)
         {
             if (ModelState.IsValid)
             {
