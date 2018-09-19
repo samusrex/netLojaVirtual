@@ -65,6 +65,9 @@ namespace Aplicacao.Apresentacao.Controllers
                 computador.Setor = Produto.Categoria.INFORMATICA;                   
                 db.Adicione(computador);
                 db.Registre();
+
+                TempData["Success"] = true;
+
                 return RedirectToAction("Index");
             }
 
