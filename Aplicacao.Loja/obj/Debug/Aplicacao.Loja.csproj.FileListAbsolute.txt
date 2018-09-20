@@ -10,5 +10,6 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Apl
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.csprojResolveAssemblyReference.cache
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Debug\Aplicacao.Loja.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\bin\Debug\Aplicacao.Loja.pdb
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.csprojResolveAssemblyReference.cache
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Loja\obj\Debug\Aplicacao.Loja.pdb

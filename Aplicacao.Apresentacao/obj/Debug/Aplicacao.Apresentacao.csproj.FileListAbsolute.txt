@@ -56,9 +56,8 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\A
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Loja.pdb
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\EntityFramework.xml
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\EntityFramework.SqlServer.xml
+C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Antlr3.Runtime.pdb
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\ApplicationInsights.config
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Database\LojaVirtual.mdf
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Database\LojaVirtual_log.ldf
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Apresentacao.dll.config
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Apresentacao.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Apresentacao.pdb
@@ -98,7 +97,6 @@ C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Syste
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\System.Web.WebPages.xml
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\System.Web.WebPages.Deployment.xml
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\System.Web.WebPages.Razor.xml
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Antlr3.Runtime.pdb
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Newtonsoft.Json.xml
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Microsoft.ApplicationInsights.xml
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Microsoft.AI.DependencyCollector.xml

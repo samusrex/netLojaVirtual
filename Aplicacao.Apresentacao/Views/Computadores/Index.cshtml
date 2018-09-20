@@ -71,11 +71,11 @@
 
     $(document).ready(function () {
 
-       M.toast({ html: 'I am a toast!', classes: 'rounded' });
+     
 
        @if (TempData["Success"]!=null) {
 
-           Html.Raw("M.toast({ html: 'I am a toast!', classes: 'rounded' });" );
+           @Html.Raw("M.toast({ html: 'Registrado com sucesso.', classes: 'rounded' });" );
        }
 
 

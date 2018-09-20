@@ -64,8 +64,9 @@ namespace Aplicacao.Apresentacao.Controllers
             if (ModelState.IsValid)
             {
                 eletronicos.Setor = Produto.Categoria.ELETRONICOS;
-                db.Adicione(eletronicos);
-                db.Registre();
+                // db.Adicione(eletronicos);
+                //db.Registre();
+                db.RegistreUsandoStoreProcedure(eletronicos);
 
                 TempData["Success"] = true;
 

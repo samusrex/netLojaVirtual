@@ -1,31 +1,19 @@
 ﻿@model IEnumerable<Aplicacao.Loja.Loja.Items.Computador>
 
 @{
-    ViewBag.Title = "Index";
-}
 
-<h2>Index</h2>
+    ViewBag.Title = "Index";
+
+
+}
+<h5>Pc's e Notebooks</h5>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a class="btn-floating tooltipped green darken-4 right" data-position="bottom" data-tooltip="Novo" href='@Url.Action("Create","Computadores")'><i class="material-icons">add</i></a>
 </p>
+
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.CatgInfo)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Processador)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Memoria)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Armazenamento)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TipoArmazenamento)
-        </th>
         <th>
             @Html.DisplayNameFor(model => model.Nome)
         </th>
@@ -35,65 +23,64 @@
         <th>
             @Html.DisplayNameFor(model => model.Descricao)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Valor)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Quantidade)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Imagem)
-        </th>
+
         <th>
             @Html.DisplayNameFor(model => model.Setor)
         </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.CatgInfo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Processador)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Memoria)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Armazenamento)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TipoArmazenamento)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Fabricante)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Valor)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Quantidade)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Imagem)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Setor)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProdutoId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fabricante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Setor)
+            </td>
+
+            <td>
+                <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Editar" href='@Url.Action("Edit","Computadores", new { id = item.ProdutoId })'><i class="material-icons">create</i></a>
+                @* @Html.ActionLink("Editar", "Edit", new { id = item.ProdutoId }) |*@
+                <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Detalhes" href='@Url.Action("Details","Computadores", new { id = item.ProdutoId })'><i class="material-icons">dehaze</i></a>
+                @*@Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |*@
+                @* @Html.ActionLink("Delete", "Delete", new { id = item.ProdutoId })*@
+                <a class="btn-floating tooltipped" data-position="bottom" data-tooltip="Excluir" href='@Url.Action("Delete","Computadores", new { id = item.ProdutoId })'><i class="material-icons">delete</i></a>
+
+            </td>
+
+        </tr>
+    }
 
 </table>
+
+
+
+
+<script>
+
+
+    $(document).ready(function () {
+
+       M.toast({ html: 'I am a toast!', classes: 'rounded' });
+
+       @if (TempData["Success"]!=null) {
+
+           Html.Raw("M.toast({ html: 'I am a toast!', classes: 'rounded' });" );
+       }
+
+
+    });
+
+
+
+</script>

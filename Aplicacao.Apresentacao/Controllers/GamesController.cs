@@ -65,6 +65,9 @@ namespace Aplicacao.Apresentacao.Controllers
                 jogo.Setor = Produto.Categoria.GAMES;
                 db.Adicione(jogo);
                 db.Registre();
+
+                TempData["Success"] = true;
+
                 return RedirectToAction("Index");
             }
 

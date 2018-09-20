@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Transire</title>
 
     @*@Styles.Render("~/Content/css")*@
     @*@Scripts.Render("~/bundles/modernizr")*@
@@ -32,11 +32,12 @@
     </ul>
     <nav>
         <div class="nav-wrapper  green lighten-1">
-            <a href="#!" class="brand-logo right">Loja Virtual</a>
-            <ul class="left hide-on-med-and-down">
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Categoria de Produtos</a></li>
-                <li><a class="dropdown-trigger" href='@Url.Action("Escolher","Home")'>Cadastro De Produto</a></li>
-            </ul>
+            <a href="#!" class="brand-logo left">Transire Loja Virtual</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Categoria de Produtos</a></li>
+				<li><a class="dropdown-trigger" href='@Url.Action("Escolher","Home")'>Cadastro De Produto</a></li>
+				<li><a class="dropdown-trigger" href='@Url.Action("Index","Home")'>Produtos</a></li>
+			</ul>
         </div>
     </nav>
 
@@ -44,7 +45,6 @@
     <div style="padding:10px">
 
         <div class="card-panel">
-
             @RenderBody()
         </div>
     </div>
@@ -55,7 +55,7 @@
         $(document).ready(function () {
             $(".dropdown-trigger").dropdown();
             $('.tooltipped').tooltip();
-                     
+
         });
 
 

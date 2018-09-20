@@ -1,6 +1,4 @@
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\ApplicationInsights.config
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Database\LojaVirtual.mdf
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Database\LojaVirtual_log.ldf
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Apresentacao.dll.config
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Apresentacao.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Apresentacao.pdb

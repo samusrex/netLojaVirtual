@@ -14,8 +14,6 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\obj\Debug\
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\obj\Debug\Aplicacao.Console.exe
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\obj\Debug\Aplicacao.Console.pdb
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\obj\Debug\Aplicacao.Console.csprojResolveAssemblyReference.cache
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Database\LojaVirtual.mdf
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Database\LojaVirtual_log.ldf
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Aplicacao.Console.exe.config
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Aplicacao.Console.exe
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Aplicacao.Console.pdb

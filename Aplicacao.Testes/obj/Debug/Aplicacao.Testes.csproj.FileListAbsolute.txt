@@ -118,8 +118,6 @@ C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\pt-br
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.csprojResolveAssemblyReference.cache
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\obj\Debug\Aplicacao.Testes.pdb
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Database\LojaVirtual.mdf
-C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Database\LojaVirtual_log.ldf
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Aplicacao.Dados.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\Aplicacao.Loja.dll
 C:\Users\hmendonca\Documents\Git\netLojaVirtual\Aplicacao.Testes\bin\Debug\EntityFramework.dll
