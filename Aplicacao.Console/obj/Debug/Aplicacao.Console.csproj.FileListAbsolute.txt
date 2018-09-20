@@ -1,5 +1,3 @@
-C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Database\LojaVirtual.mdf
-C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Database\LojaVirtual_log.ldf
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Aplicacao.Console.exe.config
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Aplicacao.Console.exe
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Console\bin\Debug\Aplicacao.Console.pdb

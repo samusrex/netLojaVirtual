@@ -47,8 +47,6 @@ C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\obj\D
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\obj\Debug\Aplicacao.Apresentacao.csproj.CoreCompileInputs.cache
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\obj\Debug\Aplicacao.Apresentacao.dll
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\obj\Debug\Aplicacao.Apresentacao.pdb
-C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Database\LojaVirtual.mdf
-C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Database\LojaVirtual_log.ldf
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Dados.dll
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\Aplicacao.Loja.dll
 C:\Users\Halyson Samus\Documents\Git\netLojaVirtual\Aplicacao.Apresentacao\bin\EntityFramework.dll
