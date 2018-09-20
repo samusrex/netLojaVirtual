@@ -1,6 +1,6 @@
 USE [Loja]
 GO
-/****** Object:  StoredProcedure [dbo].[spInserirProdutoCategoriaEletronicos]    Script Date: 20/09/2018 13:58:41 ******/
+/****** Object:  StoredProcedure [dbo].[spInserirProdutoCategoriaEletronicos]    Script Date: 20/09/2018 15:13:51 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -10,8 +10,8 @@ GO
 -- Create date: 2018-09-20
 -- Description:	INSERT DE PRODUTOS
 -- =============================================
-ALTER PROCEDURE [dbo].[spInserirProdutoCategoriaEletronicos]
-
+CREATE PROCEDURE [dbo].[spInserirProdutoCategoriaEletronicos]
+	@ultimoregistroId INT OUTPUT,
 	@NOME NVARCHAR(MAX),
 	@FABR NVARCHAR(MAX),
 	@DESC NVARCHAR(MAX),
@@ -69,5 +69,7 @@ BEGIN
 	@CATGME,
 	'eletronico'
 	)
+
+	SELECT @ultimoregistroId = SCOPE_IDENTITY()
     
 END

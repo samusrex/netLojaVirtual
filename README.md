@@ -1,4 +1,4 @@
-## Loja Virtual - Cadastro de Produtos
+﻿## Loja Virtual - Cadastro de Produtos
 
 Sistema de Cadastro de Produto,com listagem, adição/edição e exclusão de itens por categorias.
 
@@ -11,15 +11,15 @@ Sistema de Cadastro de Produto,com listagem, adição/edição e exclusão de it
 
 3. Crie um banco de dados no SQL Server Express 2016, com o nome **Loja**.
 
-4.Configure as *connections strings* do projeto em dois locais:
+3.1 Para adicionar a Store procedure execute o arquivo do projeto *spInserirProdutoCategoriaEletronicos.sql*
+
+4.Configure as *connections strings* do projeto nos locais:
 Aplicacao.Apresentacao -> Web.Config.
 Aplicação.Console -> App.Config (Se desejar, executar).
 
-Ex: __add name="LojaDb" connectionString="Data Source=.\SQLEXPRESS01;Initial Catalog=Loja; Integrated Security = true"  providerName="System.Data.SqlClient"__
+Ex: __add name="LojaDb" connectionString="Data Source=[nomeservidor]\SQLEXPRESS;Initial Catalog=Loja; Integrated Security = true"  providerName="System.Data.SqlClient"__
 
-(Em caso de banco de dados em rede local, configurar o DatarSource de acordo com os parâmetros do banco de dados.)
-
-5. Abra a solução e no estrutura chamada *Aplicacao.Dados*, execute no *Package Manager Console* do seu Visual Studio, o comando *update-database*, este criará as tabelas necessárias no banco de dados.
+5. Após as *connection strings* estiverem configurada corretamente.Abra a estrutura chamada *Aplicacao.Dados*, execute no *Package Manager Console* do seu Visual Studio, o comando *update-database*, este criará as tabelas necessárias no banco de dados.
 
 6. Após a criação da estrutura necessária no banco, este será populado por alguns registros. Através do método *Seed* da classe *Configuration.cs.*
 
@@ -65,7 +65,24 @@ __Breve descrição das atividades__:
 
 10. Fiz um deploy local.
 
-## Observações Finais.
+## Observações Finais e Considerações.
+Existem várias jeitos de modelar esta solução, por exemplo, poderíamos criar uma entidade Produto e Categoria tal como:
+
+` public class Produto{
+(...)
+Categoria categoria{get;set;}
+}`
+Porém para este exemplo, decidi aplicar a abstração e o polimorfismo da Orientação a Objetos e tornei a classe Produto em um conceito abstrato, bem mais próximo do que a palavra significa no mundo real. 
+Esta contém informações em comum para todas as outras classe que a herdam, que são as classes concretas, onde cada uma possui características próprias que as definem como um objeto diferente. Com isso a aplicação se beneficia das vantagens do polimorfismo.
+
+Existe um método no Repositório de Produtos que é chamado de 
+*RegistreUsandoStoreProcedure()* , este chama a procedure que estará no banco criado e criará um novo registro de um Produto > Eletrônico.
+
+Grato.
+
+
+
+
 
 
 
