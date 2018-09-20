@@ -104,13 +104,17 @@
 
 <script>
 
+      $(document).ready(function () {
 
-        $(document).ready(function () {
-        
-            $('select').formSelect();
+     
 
-        });
+       @if (TempData["Success"]!=null) {
 
+           @Html.Raw("M.toast({ html: 'Registrado com sucesso.', classes: 'rounded' });" );
+       }
+
+
+    });
 
 
 </script>

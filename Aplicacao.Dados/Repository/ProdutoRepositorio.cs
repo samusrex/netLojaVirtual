@@ -59,6 +59,7 @@ namespace Aplicacao.Dados.Repository
         {
 
             int padrao = 0;
+            string imagem = p.Imagem ?? p.Nome + ".jpg";
 
             var resultado = new SqlParameter("@ultimoregistroId", SqlDbType.Int)
             {
@@ -95,7 +96,7 @@ namespace Aplicacao.Dados.Repository
                                    new SqlParameter("@DESC", p.Descricao),
                                    new SqlParameter("@VALOR", p.Valor),
                                    new SqlParameter("@QTDE", p.Quantidade),
-                                   new SqlParameter("@IMG", p.Imagem),
+                                   new SqlParameter("@IMG", imagem),
                                    new SqlParameter("@SETOR", p.Setor),
                                    new SqlParameter("@CATINFO", padrao),
                                    new SqlParameter("@PROCESS", padrao),

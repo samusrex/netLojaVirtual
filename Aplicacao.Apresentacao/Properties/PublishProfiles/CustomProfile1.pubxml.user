@@ -16,10 +16,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/20/2018 08:33:47</publishTime>
     </File>
     <File Include="bin/Aplicacao.Apresentacao.dll">
-      <publishTime>09/20/2018 09:22:52</publishTime>
+      <publishTime>09/20/2018 16:58:33</publishTime>
     </File>
     <File Include="bin/Aplicacao.Dados.dll">
-      <publishTime>09/20/2018 09:14:24</publishTime>
+      <publishTime>09/20/2018 16:58:29</publishTime>
     </File>
     <File Include="bin/Aplicacao.Dados.dll.config">
       <publishTime>09/20/2018 08:33:47</publishTime>
@@ -379,7 +379,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/20/2018 08:33:46</publishTime>
     </File>
     <File Include="Views/Computadores/Index.cshtml">
-      <publishTime>09/20/2018 08:33:46</publishTime>
+      <publishTime>09/20/2018 10:56:05</publishTime>
     </File>
     <File Include="Views/Eletronicos/Create.cshtml">
       <publishTime>09/20/2018 08:33:46</publishTime>
@@ -394,7 +394,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/20/2018 08:33:46</publishTime>
     </File>
     <File Include="Views/Eletronicos/Index.cshtml">
-      <publishTime>09/20/2018 08:33:46</publishTime>
+      <publishTime>09/20/2018 10:55:56</publishTime>
     </File>
     <File Include="Views/Games/Create.cshtml">
       <publishTime>09/20/2018 08:33:46</publishTime>
@@ -409,7 +409,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/20/2018 08:33:46</publishTime>
     </File>
     <File Include="Views/Games/Index.cshtml">
-      <publishTime>09/20/2018 08:33:46</publishTime>
+      <publishTime>09/20/2018 10:56:45</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>09/20/2018 08:33:46</publishTime>
@@ -427,7 +427,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/20/2018 08:33:46</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/20/2018 08:33:46</publishTime>
+      <publishTime>09/20/2018 16:49:53</publishTime>
     </File>
     <File Include="Views/Terminais/Create.cshtml">
       <publishTime>09/20/2018 08:33:46</publishTime>
@@ -466,7 +466,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/20/2018 08:33:46</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/20/2018 09:22:52</publishTime>
+      <publishTime>09/20/2018 16:58:35</publishTime>
     </File>
   </ItemGroup>
 </Project>
