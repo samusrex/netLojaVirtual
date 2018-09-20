@@ -78,6 +78,8 @@ Esta contém informações em comum para todas as outras classe que a herdam, qu
 Existe um método no Repositório de Produtos que é chamado de 
 *RegistreUsandoStoreProcedure()* , este chama a procedure que estará no banco criado e criará um novo registro de um Produto > Eletrônico.
 
+Este projeto foi feito deploy em um servidor IIS de Teste, sem problemas, apenas necessitando as configurações corretas da connection string no Projeto.
+
 Grato.
 
 
